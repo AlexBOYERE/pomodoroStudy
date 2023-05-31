@@ -7,7 +7,7 @@ export default function HomeScreen() {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Bienvenue, dans mon Pomodoro!</Text>
-            <LottieView style={styles.banner} source={require('./animation.json')} autoPlay loop />
+            {/*<LottieView style={styles.banner} source={require('./animation.json')} autoPlay loop />*/}
             <Link href="/Screens/PomodoroScreen/PomodoroScreen">
                 Go to the todolist
             </Link>
